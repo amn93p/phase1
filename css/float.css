@@ -6,7 +6,7 @@ body {
 	background: aquamarine;
 	background-image: url("/img/fortnite.png");
 	background-repeat: no-repeat;
-	border: 8px solid #da70d6;
+	border: 5px solid #da70d6;
 	border-style: double;
 	margin-bottom: 6px;
 	margin-left: 2%;
@@ -14,6 +14,7 @@ body {
 	float: left;
 	height: 196px;
 	width: 350px;
+	transition: 0.5s;
 }
 
 .clear {
@@ -26,4 +27,8 @@ body {
 p {
 	background-color: #66cdaa;
 	font-size: 30px;
+}
+
+.boite:hover {
+	margin-top: 10vh;
 }
