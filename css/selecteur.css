@@ -1,0 +1,51 @@
+* {
+	font-size: 20px;
+}
+
+body {
+	background-image: url("https://i.pinimg.com/originals/4b/11/73/4b11736a517898a9d6a4459d75f01880.jpg");
+	background-size: cover;
+}
+
+.lime {
+	color: lime;
+}
+
+h1 {
+	font-size: 35px;
+	color: #ffffff;
+	background-color: #2f4f4f;
+}
+
+p:nth-child(1),
+p:nth-child(5),
+p:nth-child(7),
+p:nth-child(9) {
+	color: #da70de;
+}
+
+p:nth-child(2),
+p:nth-child(4),
+p:nth-child(6),
+p:nth-child(8) {
+	color: #b1d0fa;
+}
+
+p:nth-child(3),
+p:nth-child(10) {
+	color: #ffad00;
+}
+
+div:nth-child(1) {
+	color: #e12a3c;
+}
+
+div:nth-child(2) {
+	color: #008080;
+}
+
+li:last-child {
+	color: white;
+	background: #8b0000;
+	border-style: double;
+}

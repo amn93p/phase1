@@ -1,0 +1,39 @@
+body {
+	background-image: url(../img/background.png);
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	font-size: 23px;
+	font-family: cursive;
+	color: aliceblue;
+}
+
+p {
+	font-style: italic;
+	color: aliceblue;
+}
+
+label {
+	font-family: cursive;
+	color: aliceblue;
+}
+
+legend {
+	color: aliceblue;
+}
+
+.bouton {
+	background: mediumpurple;
+	color: #fff;
+	height: 30px;
+	width: 100px;
+	border: 1px solid #3b1931;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+
+textarea {
+}

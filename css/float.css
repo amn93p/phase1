@@ -1,0 +1,17 @@
+.boite {
+	background: aquamarine;
+	border: 1px solid black;
+	margin-bottom: 5px;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+.clear {
+	clear: both;
+}
+
+.content {
+	width: 408px;
+	margin: auto;
+}

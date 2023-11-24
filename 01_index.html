@@ -1,0 +1,192 @@
+<!DOCTYPE html><!-- DOCTYPE est la première balise obligatoire dans une page HTML : elle désigne le type de document pour le navigateur -->
+
+<html lang="fr"><!-- langue de la page -->
+
+<head><!-- la balise HEAD contient les paramètres de la page HTML qui sont invisibles pour l'internaute -->
+
+<meta charset="UTF-8">
+<!-- encodage des caractères pour la gestion de l'affichage des caractères spéciaux -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- contrôler la mise en page sur les navigateurs mobiles ici le 1.0 signifie qu'il n'y a pas de zoom -->
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- compatibilité avec la navigateur edge -->
+<meta name="description" content="Ma première page HTML">
+<!-- description sous le titre dans la recherche google -->
+<meta name="author" content="Sonia">
+<meta name="keywords" content="html, page html, bases html/css, ..."> <!-- Les mots clefs en rapport avec la recheche que fera le visiteur, a perdu de son importance-->
+<!-- auteur du site -->
+<title>Sonia</title>
+<!--Titre du site apparaissant  dans l'onglet et en résultat de recherche google-->
+<link rel="stylesheet" href="css/01_index.css">
+<!-- relie le fichier HTML au fichier de mise en forme CSS(Cascading Style Sheets) -->
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<!-- Lien pour les polices utilisées ici via "Google-Font" -->
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+</head><!-- fin de balise head -->
+
+<!-- on peut leur demander avec ctnrl + shift + p (f1) de trouver commenter une ligne et les laisser noter ici le raccourcis -->
+<!-- ceci est un commentaire (visual => ctrl + : plusieurs: shift + alt + A) -->
+
+<!-- dupliquer une ligne (visual => ctrl + shift + bas) -->
+
+<!-- Corps de la page -->
+<body>
+C'est ma première page web ! Le navigateur affiche le texte, les images... contenus dans le bloc de ma balise body. 
+<!-- &lt; permet d'afficher ma balise html dans le navigateur, si je mets un chevron normalement ma balise sera interprétée par le navigateur ce qui n'est pas ce que je veux ici --> 
+
+<!-- Les titres -->
+<h1><i>Titre h1</i></h1>
+<h2><i>Titre h2</i></h2>
+<h3>Titre h3</h3>
+<h4>Titre h4</h4>
+<h5>Titre h5</h5>
+<h6>Titre h6</h6>
+
+    <!--<h1></h1>
+            <H2></H2>
+                <H3></H3>
+                <H3></H3>
+            <h2></h2>
+                <h3></h3>
+                    <h4></h3>-->
+
+<p>Ceci est une phrase.</p>
+<p>Les paragraphes sont délimités par la balise &lt;p>.</p><!-- &lt;  => < ce type code permet de ne pas interprêter notre balise p-->
+<!-- alt + Z pour faire un retour automatique à la ligne -->
+<p>
+    « Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient si vite que je n’avais pas le temps de me dire : « Je m’endors. » Et, une demi-heure après, la pensée qu’il était temps de chercher le sommeil m’éveillait ; je voulais poser le volume que je croyais avoir encore dans les mains et souffler ma lumière ; je n’avais pas cessé en dormant de faire des réflexions sur ce que je venais de lire, mais ces réflexions avaient pris un tour un peu particulier ; il me semblait que j’étais moi-même ce dont parlait l’ouvrage : une église, un quatuor, la rivalité de François Ier et de Charles Quint. Cette croyance survivait pendant quelques secondes à mon réveil ; elle ne choquait pas ma raison mais pesait comme des écailles sur mes yeux et les empêchait de se rendre compte que le bougeoir n’était plus allumé. Puis elle commençait à me devenir inintelligible, comme après la métempsycose les pensées d’une existence antérieure ; le sujet du livre se détachait de moi, j’étais libre de m’y appliquer ou non ; aussitôt je recouvrais la vue et j’étais bien étonné de trouver autour de moi une obscurité, douce et reposante pour mes yeux, mais peut-être plus encore pour mon esprit, à qui elle apparaissait comme une chose sans cause, incompréhensible, comme une chose vraiment obscure. Je me demandais quelle heure il pouvait être ; j’entendais le sifflement des trains qui, plus ou moins éloigné, comme le chant d’un oiseau dans une forêt, relevant les distances, me décrivait l’étendue de la campagne déserte où le voyageur se hâte vers la station prochaine ; et le petit chemin qu’il suit va être gravé dans son souvenir par l’excitation qu’il doit à des lieux nouveaux, à des actes inaccoutumés, à la causerie récente et aux adieux sous la lampe étrangère qui le suivent encore dans le silence de la nuit, à la douceur prochaine du retour. » 
+
+</p>
+	
+    Peindre d'abord une cage
+avec une porte ouverte
+peindre ensuite
+quelque chose de joli
+quelque chose de simple
+quelque chose de beau
+quelque chose d'utile
+pour l'oiseau
+    Placer ensuite la toile contre un arbre
+dans un jardin
+dans un bois
+ou dans une forêt
+Se cacher derrière l'arbre
+sans rien dire
+sans bouger..
+
+<!-- paragraphe préformaté -->
+<pre>Les numériques de Poissy 2021</pre>
+<p>Les numériques de Poissy 2021</p>
+
+<!-- les retours à la ligne -->
+<p><!-- attention ne pas abuser du br et appliquer plutôt des espaces avec du css -->
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    <br />
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    <br />
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+    <br />
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+<!-- La disposition -->
+<p style="text-align:right">
+    Ce paragraphe sur deux
+    <br />
+    lignes est disposé à droite.
+</p>
+
+<p style="text-align:center">
+    Ce paragraphe sur deux
+    <br />
+    lignes est disposé au centre.
+</p>
+
+<p style="text-align:left">
+    Ce paragraphe sur deux
+    <br />
+    lignes est disposé à gauche.
+</p>
+
+<p style="text-align:justify"><!-- lorem100 permet de générer 50 mots de texte-->
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br />
+    Ce paragraphe est justifié : aligné à droite et à gauche.
+</p>
+
+<!-- Le code -->
+<code>
+    <pre> 
+        Voici la structure de base d'une page HTML :
+        &lt;!DOCTYPE html>
+        &lt;html>
+        &lt;head>
+            &lt;title>&lt;/title>
+        &lt;/head>
+        &lt;body>
+        
+        &lt;/body>
+        &lt;/html> 
+    </pre>
+</code>
+<p> Quel est le rôle de ma balise &lt;hr /> ? </p>
+<hr /><!-- horizontal rule ==> barre horizontal -->
+<p> Elle insère une ligne séparatrice dans ma page HTML. <br />
+    Elle est auto-fermante (ou orpheline)... à ne pas confondre avec la balise &lt;br /> est effectue un retour à la ligne. (br break, hr horizontal rule)</p>
+
+<!-- La mise en valeur -->
+<!-- Attention les balises html parlent aux navigateurs, l'utilisation d'une balise html doit être réfléchis pour rendre clair le sens du contenu, pas pour faire de la mise en forme --> 
+<!-- STRONG -->
+<p>Bonjour, ceci est mon premier fichier en html alors <strong>soyez indulgents</strong> SVP !</p>
+
+<!-- EM petite mise en valeur -->
+<p> Bonjour, ceci est mon premier fichier en html alors <em>soyez indulgents</em> SVP ! </p>
+
+<!-- MARK fait ressortir visuellement une portion de texte -->
+<p> Bonjour, ceci est mon premier fichier en html alors
+    <mark>soyez indulgents</mark>
+    SVP ! </p>
+
+<!-- Les listes --> 
+<!-- non ordonnée (à puces) -->
+<ul>
+    <li>Chat</li>
+    <li>Chien</li>
+    <li>Cheval</li>
+</ul>
+
+<!-- ordonnée (numérotée) -->
+<ol>
+    <li>Chat</li>
+    <li>Chien</li>
+    <li>Cheval</li>
+</ol>
+
+<!-- les couleurs -->
+<p style="color:crimson">H</p>
+<p style="color:lightseagreen">T</p>
+<p style="color:darkgreen">M</p>
+<p style="color:navy">L</p>
+<br />
+<p style="color:#dc143c">H</p>
+<p style="color:#20b2aa">T</p>
+<p style="color:#006400">M</p>
+<p style="color:#000080">L</p>
+
+<!-- La couleur du fond -->
+<p style="background-color:cyan">Bonjour</p>
+<p style="background-color:pink">Hello</p>
+<p style="background-color:black; color:yellow">Bongiorno</p>
+
+<!-- Les liens --> 
+<!-- Pour charger un fichier -->
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="js/script.js" />
+
+<!-- Pour accéder à une URL (site web) --> 
+<a href="http://colorhunt.co/">Site web color hunt</a> 
+
+<!-- Les images --> 
+<img src="img/bengal.jpg" alt="un chat de type bengal" /> <img src="img/siamois.jpg" alt="un chat de type siamois" />
+</body>
+</html>

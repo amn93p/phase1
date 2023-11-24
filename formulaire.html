@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaires HTML</title>
+    <link rel="stylesheet" href="css/formulaire.css">
+</head>
+<body>
+    <h1><u>Questionnaire</h1></u>
+    <form>
+        <label for="pseudo">
+            Pseudonyme
+            <input type="text" id="pseudo" name="pseudo" placeholder="Entrez votre pseudo.." required>
+        </label>
+        <label for="mdp">
+            Mot de passe <span title="Entrez votre mot de passe"></span>
+        </label>
+        <input type="password" id="mdp" name="mdp" placeholder="Mot de passe.." required>
+        <br>
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Entrez votre email..">
+        <br>
+        <br>
+        <label for="photo">Photo</label>
+        <input type="file" id="photo" name="photo">
+
+        <br>
+        <br>
+        <fieldset>
+            <legend>Choix multiples</legend>
+            <label for="q1">Quelle destination choisissez-vous?</label>
+            <p>
+                <input type="checkbox" id="q1" name="reponse01">Italie
+                <input type="checkbox" id="q1" name="reponse02">Tunisie
+                <input type="checkbox" id="q1" name="reponse03">Espagne
+            </p>
+            <br>
+            <label for="q2">Qui seront vos accompagnateurs?</label>
+            <p>
+                <input type="radio" id="q2" name="q2">En famille
+                <input type="radio" id="q2" name="q2" checked>Entre amis
+                <input type="radio" id="q2" name="q2">Solo
+            </p>
+            <br>
+            <label for="commentaires">Commentaires</label>
+            <textarea name="commentaires" id="commentaires" cols="80" rows="4"></textarea>    
+            <br>
+        </fieldset>
+        <br>
+        <br>
+        <br>
+        <input type="submit" name="submit" class="bouton" value="Envoyer">
+        <br>
+    </form>
+</body>
+</html>

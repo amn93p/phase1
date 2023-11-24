@@ -1,0 +1,8 @@
+.degrade {
+	background-image: linear-gradient(to right, #6646a3, #54719e, #449c98);
+	height: 45em;
+	width: 45em;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,54 @@
+body {
+	font-size: 30px;
+	text-align: center;
+	font-family: fantasy;
+}
+
+table {
+	width: 60%;
+	margin: auto;
+	border-collapse: collapse;
+	border: 5px solid #510080;
+}
+
+caption {
+	font-size: 40px;
+	color: #510080;
+	background-color: #d7d0ff;
+	line-height: 70px;
+}
+
+tr,
+td {
+	border: 2px dotted #510080;
+}
+
+td {
+	padding: 5px 20px 5px 10px;
+}
+
+th {
+	background-color: #e7c2f5;
+	border-style: double;
+}
+
+.centre {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td:nth-child(1) {
+	background-color: #e6e6fa;
+}
+
+#id22 {
+	background-color: #e6e6fa;
+}
+
+#id26 {
+	background-color: #e6e6fa;
+}
+
+#id24 {
+	background-color: #e6e6fa;
+}
