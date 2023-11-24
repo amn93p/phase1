@@ -1,10 +1,19 @@
+body {
+	background-color: #b0c4de;
+}
+
 .boite {
 	background: aquamarine;
-	border: 1px solid black;
-	margin-bottom: 5px;
+	background-image: url("/img/fortnite.png");
+	background-repeat: no-repeat;
+	border: 8px solid #da70d6;
+	border-style: double;
+	margin-bottom: 6px;
+	margin-left: 2%;
+	margin-top: 1%;
 	float: left;
-	height: 100px;
-	width: 100px;
+	height: 196px;
+	width: 350px;
 }
 
 .clear {
@@ -12,6 +21,9 @@
 }
 
 .content {
-	width: 408px;
-	margin: auto;
+}
+
+p {
+	background-color: #66cdaa;
+	font-size: 30px;
 }
