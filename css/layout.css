@@ -1,0 +1,45 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.divparent {
+	margin: 0 auto;
+	flex-wrap: wrap;
+	text-align: center;
+	border: 3px solid #4e7b9b;
+	width: 340px;
+	height: 160px;
+}
+
+header {
+	background-color: #fed1cf;
+	width: 334px;
+	height: 41px;
+}
+
+nav {
+	background-color: #c7f8ff;
+	width: 334px;
+	height: 41px;
+}
+
+section {
+	background-color: #fbfee7;
+	width: 210px;
+	height: 114px;
+}
+
+aside {
+	background-color: #eaeaea;
+}
+
+footer {
+	background-color: #ffdab5;
+}
+
+article {
+	background-color: #eee1fb;
+}

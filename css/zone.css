@@ -1,0 +1,68 @@
+#parent {
+	width: 960px;
+	background: paleturquoise;
+	color: white;
+	margin: 0 auto;
+}
+
+header {
+	background: tan;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+
+nav {
+	background: grey;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+section {
+	height: 500px;
+	background: gray;
+	margin: 10px;
+}
+
+.GZ {
+	border: 1px solid;
+	float: left;
+	height: 248px;
+	width: 468px;
+}
+
+.div {
+	border: 1px solid;
+	float: left;
+	height: 122px;
+	line-height: 122px;
+	text-align: center;
+	width: 232px;
+}
+
+.couleur1 {
+	background: peachpuff;
+}
+
+.couleur2 {
+	background: #7a9eb1;
+}
+
+.couleur3 {
+	background: #415865;
+}
+
+.couleur4 {
+	background: #ffe1b3;
+}
+footer {
+	background: silver;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}

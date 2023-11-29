@@ -1,0 +1,33 @@
+body {
+	width: 80%;
+	margin: 10px auto;
+	font-family: cursive;
+}
+#contenu {
+	background-color: red;
+	border: 2px solid #000;
+}
+header,
+footer {
+	height: 80px;
+	background-color: #8e3557;
+	color: #fff;
+	text-align: center;
+	padding-top: 6px;
+}
+nav {
+	height: 40px;
+	background-color: #4a1a2c;
+	color: #fff;
+	padding-left: 20px;
+	padding-top: 6px;
+}
+section {
+	border: 20px solid #787746;
+	background-color: #e6e2af;
+	height: 500px;
+	text-align: center;
+}
+p {
+	margin: 0;
+}

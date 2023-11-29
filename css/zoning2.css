@@ -1,0 +1,51 @@
+body {
+	color: white;
+	font-size: 25px;
+}
+
+#parent {
+	width: 80%;
+	margin: 0 auto;
+	border: 2px solid rgb(25, 48, 48);
+}
+header {
+	background-color: #8e3557;
+	height: 98px;
+}
+nav {
+	background-color: #4a1a2c;
+	height: 30px;
+}
+section {
+	background-color: #787746;
+	height: 500px;
+	margin: 20px;
+}
+footer {
+	background-color: #4a1a2c;
+	height: 98px;
+}
+.a,
+.b,
+.c,
+.d {
+	width: 50%;
+	height: 250px;
+	float: left;
+}
+.a {
+	background-color: #4a1a2c;
+}
+.b {
+	background-color: #787746;
+}
+.c {
+	background-color: #e6e2af;
+}
+.d {
+	background-color: lightblue;
+}
+
+.clear {
+	clear: both;
+}

@@ -1,0 +1,35 @@
+* {
+	font-family: cursive;
+}
+
+body {
+	box-sizing: border-box;
+	width: 100%;
+	border: 2px solid black;
+}
+header,
+footer,
+nav {
+	padding: 1em;
+}
+
+#pageHeader {
+	background: #8e3557;
+	color: azure;
+	text-align: center;
+}
+#pageFooter {
+	background: #8e3557;
+	color: azure;
+	text-align: center;
+}
+#main {
+	background: #e6e2af;
+	border: 20px solid #787746;
+	height: 500px;
+	text-align: center;
+}
+#mainNav {
+	background: #4a1a2c;
+	color: azure;
+}
