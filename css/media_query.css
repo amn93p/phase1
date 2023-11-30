@@ -1,0 +1,50 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#divv {
+	width: 1400px;
+	height: 850px;
+	margin: auto;
+}
+
+main {
+	display: flex;
+	width: 100%;
+	height: 30%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+section {
+	width: 220px;
+	height: 500px;
+}
+
+.orange {
+	background-color: #ff914d;
+}
+
+.bleu {
+	background-color: #03989f;
+}
+
+.rouge {
+	background-color: #ff5757;
+}
+
+@media only screen and (max-width: 1399px) {
+	section {
+		height: 200px;
+		width: 100%;
+	}
+	#divv {
+		width: 100%;
+	}
+	.bleu {
+		background-color: green;
+	}
+}
