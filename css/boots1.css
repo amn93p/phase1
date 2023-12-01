@@ -1,0 +1,13 @@
+body {
+	background-color: #ededed;
+}
+
+.bg_ {
+	--bs-bg-opacity: 1;
+	background-color: #d95700;
+}
+
+img:hover {
+	margin-top: 100px;
+	transition: 0.5s;
+}
